@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="C:\Users\Administrator\.android\build-cache\dde2ac2b892912d09e864ea0990d75b0f927b400\output\assets"/></dataSet><dataSet config="main"><source path="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\src\main\assets"/><source path="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\src\debug\assets"/></dataSet></merger>

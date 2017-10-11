@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">指静脉考勤Demo</string>
+    <string name="hello_world">门禁系统</string>
+	 <string name="net_error">网络错误</string>
+	 <string name="aye_not_touch">指腹未触碰，请平放您的手指</string>
+<string name="aeye_put_finger_in">指尖未触碰，请平放您的手指</string>
+<string name="aeye_please_relax">放轻松，保持手指平放于凹槽</string>
+<string name="aeye_finger_free">空闲</string>
+<string name="aeye_press_error">按压错误</string>
+<string name="aeye_light_overexposed">漏光过曝</string>
+<string name="aeye_no_realize_zone">无法识别手指区域</string>
+<string name="aeye_finger_create">指静脉模板采集</string>
+<string name="aeye_finger_detected">指静脉检测与识别</string>
+<string name="aeye_working">工作中...</string>
+<string name="aeye_device_open_error">设备打开失败</string>
+<string name="aeye_not_find_device">未检测到指静脉设备</string>
+<string name="aeye_user_detected_cancel">用户取消</string>
+<string name="aeye_detected_success">检测成功</string>
+<string name="aeye_detected_timeout">检测超时</string>    
+
+<string name="aeye_start_recog_string">开始认证，请正视摄像头</string>
+    <string name="aeye_please_blink">请自然眨眼</string>
+    <string name="aeye_alive_recog_success">活体检测成功</string>
+    <string name="aeye_no_find_face">未检测到人脸</string>
+    <string name="aeye_success">成功</string>
+    <string name="aeye_alive_fail">活体检测失败</string>
+    <string name="aeye_turn_head_left">请向左缓慢转头</string>
+    <string name="aeye_trun_head_right">请向右缓慢转头</string>
+    <string name="aeye_head_up">请缓慢抬头</string>
+    <string name="aeye_head_down">请缓慢低头</string>
+    <string name="aeye_pls_open_mouse">请缓慢张口</string>
+    <string name="aeye_alive_timeout">活体认证超时</string>
+    <string name="aeye_look_camera">请保持面部在检测框内</string>
+    
+    <string name="quality_light_reason">亮度不均匀</string>
+    <string name="aye_quality_light_black">亮度太暗</string>
+    <string name="aeye_quality_light_bright">亮度太亮</string>
+    <string name="aeye_quality_close">离镜头太近</string>
+    <string name="aeye_quality_far">离镜头太远</string>
+    
+    <string name="aeye_capture_fail">采集失败</string>
+    <string name="aeye_capture_success">采集成功</string>
+    <string name="camera_error">打开摄像头失败</string>
+</resources>

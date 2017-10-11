@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEEEEEE"
+     >
+
+    <com.aeye.view.CameraPreviewView_1
+        android:id="@+id/aeye_sfPreview"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp" />
+    
+
+    <ImageView
+        android:id="@+id/aeye_ivFaceMask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/face_bg" />
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sdktop_bg" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="24dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back_icon" />
+
+
+        <TextView
+            android:id="@+id/aeye_tvTimeCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="人脸模板采集"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivnirscanline"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:scaleType="matrix"
+        android:src="@drawable/jct_icon"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/aeye_tvCheckHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/aeye_tv_hip_background"
+        android:gravity="center"
+        android:text="@string/aeye_look_camera"
+        android:textColor="#dddddd"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/aeye_btfacesample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/aeye_tvCheckHint"
+        android:background="@drawable/facecj_icon" />
+
+
+</RelativeLayout>

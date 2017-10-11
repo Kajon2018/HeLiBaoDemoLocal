@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cam_dev">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/cam_dev.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

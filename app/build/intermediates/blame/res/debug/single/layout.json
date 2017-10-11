@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_person.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\activity_add_person.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recog_suc_dialog.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\recog_suc_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_server_modify.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\activity_server_modify.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settting.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\activity_settting.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aeye_alive_detect.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\aeye_alive_detect.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_suc_dialog.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\create_suc_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_password.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\activity_modify_password.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_authen.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\activity_authen.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aeye_finger_detect.xml",
+        "source": "E:\\AndroidStudio_project\\HeLiBaoDemoLocal\\app\\src\\main\\res\\layout\\aeye_finger_detect.xml"
+    }
+]

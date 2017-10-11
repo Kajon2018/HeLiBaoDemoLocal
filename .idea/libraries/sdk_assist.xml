@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sdk_assist">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/sdk_assist.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

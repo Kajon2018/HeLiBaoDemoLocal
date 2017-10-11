@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="blue">#008ED6</color>
+    <color name="blue_btn_color">#00B7EE</color>
+    <color name="blue_btn_press_color">#0a75b1</color>
+    <color name="dark_gray">#666666</color>
+    <color name="dark_gray_background">#d8d8d8</color>
+    <color name="dark_gray_line">#c8c8c8</color>
+    <color name="default_background_color">@android:color/transparent</color>
+    <color name="default_progress_color">#33b5e5</color>
+    <color name="default_stroke_color">#33b5e5</color>
+    <color name="default_text_color">#333333</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="global_background">#f5f5f5</color>
+    <color name="gray">#B6B5B5</color>
+    <color name="green">#1abd9b</color>
+    <color name="half_transparent">#aa000000</color>
+    <color name="home_txt_color">#ffffff</color>
+    <color name="lake_blue">#00c8fd</color>
+    <color name="light_gray">#a0a0a0</color>
+    <color name="light_gray_background">#f5f5f5</color>
+    <color name="light_orange">#f6e9dc</color>
+    <color name="medium_gray_background">#dedede</color>
+    <color name="orange">#ff4000</color>
+    <color name="orange_press">#ff9c7b</color>
+    <color name="orange_yellow">#f49d13</color>
+    <color name="picture_gray_back">#EEEEEE</color>
+    <color name="red">#ffff0000</color>
+    <color name="round_list_title_txt">#ff4000</color>
+    <color name="sandybrown">#fff4a460</color>
+    <color name="silver">#ffc0c0c0</color>
+    <color name="sweet_green">#57ae64</color>
+    <color name="sweet_orange">#ff6c56</color>
+    <color name="title_color">#f6e9dc</color>
+    <color name="trans_black_90">#E5000000</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="ProgressPieView"><attr format="integer" name="progress"/><attr format="integer" name="max"/><attr format="integer" name="startAngle"/><attr format="dimension" name="strokeWidth2"/><attr format="reference|color" name="backgroundColor"/><attr format="reference|color" name="progressColor"/><attr format="reference|color" name="strokeColor2"/><attr format="boolean" name="showStroke"/><attr format="boolean" name="showText"/><attr format="string" name="typeface"/><attr format="reference" name="image"/><attr name="android:text"/><attr name="android:textSize"/><attr name="android:textColor"/><attr format="enum" name="progressFillType">
+            <enum name="radial" value="0"/>
+            <enum name="center" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ProgressWheel"><attr format="string" name="text"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="color" name="barColor"/><attr format="color" name="rimColor"/><attr format="dimension" name="rimWidth"/><attr format="dimension" name="spinSpeed"/><attr format="integer" name="delayMillis"/><attr format="color" name="circleColor"/><attr format="dimension" name="radius2"/><attr format="dimension" name="barWidth"/><attr format="dimension" name="barLength"/><attr format="color" name="contourColor"/><attr format="dimension" name="contourSize"/></declare-styleable>
+    <declare-styleable name="ProgressWheel1"><attr format="boolean" name="matProg_progressIndeterminate"/><attr format="color" name="matProg_barColor"/><attr format="color" name="matProg_rimColor"/><attr format="dimension" name="matProg_rimWidth"/><attr format="float" name="matProg_spinSpeed"/><attr format="integer" name="matProg_barSpinCycleTime"/><attr format="dimension" name="matProg_circleRadius"/><attr format="boolean" name="matProg_fillRadius"/><attr format="dimension" name="matProg_barWidth"/><attr format="boolean" name="matProg_linearProgress"/></declare-styleable>
+    <declare-styleable name="ViewPager"><attr name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="circleImage"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="customerTextView"><attr format="enum" name="text_type">
+            
+            <enum name="STRIKE_THRU_TEXT_FLAG" value="0"/>
+            
+            <enum name="ANTI_ALIAS_FLAG" value="1"/>
+            
+            <enum name="UNDERLINE_TEXT_FLAG " value="2"/>
+        </attr></declare-styleable>
+    <string name="aeye_alive_fail">活体检测失败</string>
+    <string name="aeye_alive_recog_success">活体检测成功</string>
+    <string name="aeye_alive_timeout">活体认证超时</string>
+    <string name="aeye_capture_fail">采集失败</string>
+    <string name="aeye_capture_success">采集成功</string>
+    <string name="aeye_detected_success">检测成功</string>
+    <string name="aeye_detected_timeout">检测超时</string>
+    <string name="aeye_device_open_error">设备打开失败</string>
+    <string name="aeye_finger_create">指静脉模板采集</string>
+    <string name="aeye_finger_detected">指静脉检测与识别</string>
+    <string name="aeye_finger_free">空闲</string>
+    <string name="aeye_head_down">请缓慢低头</string>
+    <string name="aeye_head_up">请缓慢抬头</string>
+    <string name="aeye_light_overexposed">漏光过曝</string>
+    <string name="aeye_look_camera">请保持面部在检测框内</string>
+    <string name="aeye_no_find_face">未检测到人脸</string>
+    <string name="aeye_no_realize_zone">无法识别手指区域</string>
+    <string name="aeye_not_find_device">未检测到指静脉设备</string>
+    <string name="aeye_please_blink">请自然眨眼</string>
+    <string name="aeye_please_relax">放轻松，保持手指平放于凹槽</string>
+    <string name="aeye_pls_open_mouse">请缓慢张口</string>
+    <string name="aeye_press_error">按压错误</string>
+    <string name="aeye_put_finger_in">指尖未触碰，请平放您的手指</string>
+    <string name="aeye_quality_close">离镜头太近</string>
+    <string name="aeye_quality_far">离镜头太远</string>
+    <string name="aeye_quality_light_bright">亮度太亮</string>
+    <string name="aeye_start_recog_string">开始认证，请正视摄像头</string>
+    <string name="aeye_success">成功</string>
+    <string name="aeye_trun_head_right">请向右缓慢转头</string>
+    <string name="aeye_turn_head_left">请向左缓慢转头</string>
+    <string name="aeye_user_detected_cancel">用户取消</string>
+    <string name="aeye_working">工作中...</string>
+    <string name="app_name">指静脉考勤Demo</string>
+    <string name="aye_not_touch">指腹未触碰，请平放您的手指</string>
+    <string name="aye_quality_light_black">亮度太暗</string>
+    <string name="camera_error">打开摄像头失败</string>
+    <string name="hello_world">门禁系统</string>
+    <string name="net_error">网络错误</string>
+    <string name="quality_light_reason">亮度不均匀</string>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Dialog.ContentOverlay" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/full_transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

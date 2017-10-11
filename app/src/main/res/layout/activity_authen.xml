@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/blue"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/index_bg" />
+    <TextView 
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dip"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        />
+    <Button 
+        android:id="@+id/setting"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/set"
+        />
+      <com.aeye.view.CameraPreviewView
+        android:id="@+id/aeye_sfPreview"
+        android:layout_width="400dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="100dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+      
+      <TextView 
+        android:id="@+id/tvfingerstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/aeye_tv_hip_background"
+        android:gravity="center"
+        android:textColor="#dddddd"
+        android:textSize="16sp"
+        android:layout_above="@+id/ivfinger_which"
+        />
+		<ImageView
+		    android:id="@+id/ivfinger_which"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_above="@+id/arrow"
+		    android:layout_centerHorizontal="true"
+		    android:background="@drawable/indexcase_icon"
+		    />
+		
+		<ImageView
+		    android:id="@+id/arrow"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginBottom="50dip"
+		    android:background="@drawable/arrow_icon"
+		    />
+</RelativeLayout>

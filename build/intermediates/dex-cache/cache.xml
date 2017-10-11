@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\libs\cam_dev.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3bc323049546e69cc04c885cb255d5e8d7e127d4">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\cam_dev_2b6cfe9f081d875a3d6aeb95fc5640d79a9ced02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7640edfcab2cae3feaa0f509aa95d14bb1e32c6e">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\volley_51694f57440504ff66c795a5df1910de84a21f1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\NVPACK\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_f3dcb9364527e607a51507e80ade1caba96f1754.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\dde2ac2b892912d09e864ea0990d75b0f927b400\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\classes_ce62e72162e24ab0b51c7ea636d9c0e94ded70b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\libs\face_detection.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fdebd308f877f1a88fb157b91214aff68bc13f75">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\face_detection_a96f115cbaaa7e6b578d7a9f94a477baf737fe73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\dde2ac2b892912d09e864ea0990d75b0f927b400\output\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_67b58d52689a8169bb3b6cac7d2a3dffdbe4d616.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\libs\fvein_dev.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6e1255571348e4998a037d1bb174c3b91eec43bf">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\fvein_dev_986f4c6904cc8100b37c3e2379aebf333de5dbf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\libs\sdk_assist.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5b9daedfab98b1db013515867c28dbeb9c0b2c2e">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\sdk_assist_61bd3d35436bf667d00133410fa2c8a7ef273fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\libs\fvein_alg.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d196a08259bd59e025ede88d439f0949ab90d662">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\fvein_alg_2ac0f420055d21a302dafc3826b9bc980e8b2266.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\libs\face_quality.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e9e208d03fec60e9fecbfed460ff3047f6d76e6f">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\face_quality_dfc3ebdbd7147cdcc02afddd61653ac273391aa9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio1\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="E:\AndroidStudio_project\HeLiBaoDemoLocal\app\build\intermediates\pre-dexed\debug\gson-2.2.4_ea3566817aae63c8e87ab16e4d1ccfdc8d788289.jar" />
+    </item>
+
+</items>

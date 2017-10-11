@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ProgressPie -->
+    <color name="default_background_color">@android:color/transparent</color>
+    <color name="default_progress_color">#33b5e5</color>
+    <color name="default_stroke_color">#33b5e5</color>
+    <color name="default_text_color">#333333</color>
+    <color name="home_txt_color">#ffffff</color>
+    <!-- app -->
+    <color name="title_color">#f6e9dc</color>
+    <color name="global_background">#f5f5f5</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#B6B5B5</color>
+    <color name="blue">#008ED6</color>
+    <color name="green">#1abd9b</color>
+    <color name="sandybrown">#fff4a460</color>
+    <color name="silver">#ffc0c0c0</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="half_transparent">#aa000000</color>
+    <color name="dark_gray">#666666</color>
+    <color name="light_gray">#a0a0a0</color>
+    <color name="orange">#ff4000</color>
+    <color name="orange_press">#ff9c7b</color>
+    <color name="light_orange">#f6e9dc</color>
+    <color name="dark_gray_line">#c8c8c8</color>
+    <color name="dark_gray_background">#d8d8d8</color>
+    <color name="medium_gray_background">#dedede</color>
+    <color name="light_gray_background">#f5f5f5</color>
+    <color name="sweet_green">#57ae64</color>
+    <color name="sweet_orange">#ff6c56</color>
+    <color name="orange_yellow">#f49d13</color>
+    <color name="lake_blue">#00c8fd</color>
+    <color name="round_list_title_txt">#ff4000</color>
+    <color name="trans_black_90">#E5000000</color>
+    <color name="blue_btn_color">#00B7EE</color>
+    <color name="blue_btn_press_color">#0a75b1</color>
+    <color name="picture_gray_back">#EEEEEE</color>
+
+</resources>

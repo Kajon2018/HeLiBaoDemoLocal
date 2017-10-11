@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_gray_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:background="@drawable/sdktop_bg"
+        >
+         <Button 
+        android:id="@+id/back"
+        android:layout_width="20dip"
+        android:layout_height="36dip"
+        android:background="@drawable/back_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        />
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:text="新增用户" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:background="@drawable/login_edit"
+        android:layout_marginTop="100dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/user_icon" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@color/black" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="200dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:hint="请输入姓名"
+            android:textColor="@color/black"
+            android:background="@null"
+            android:textColorHint="@color/dark_gray_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:background="@drawable/login_edit"
+        android:layout_marginTop="30dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/cardicon" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@color/black" />
+
+        <EditText
+            android:id="@+id/card"
+            android:layout_width="200dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:hint="请输入身份证号码"
+            android:textColor="@color/black"
+            android:background="@null"
+            android:textColorHint="@color/dark_gray_line" />
+    </LinearLayout>
+   <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:background="@drawable/login_edit"
+        android:layout_marginTop="30dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/phone_icon" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@color/black" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="200dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:hint="请输入手机号码"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:background="@null"
+            android:textColorHint="@color/dark_gray_line" />
+    </LinearLayout>
+
+   <Button 
+        android:id="@+id/ok"
+        android:layout_width="300dip"
+        android:layout_height="45dip"
+        android:text="下一步"
+        android:gravity="center"
+        android:layout_marginTop="30dip"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/btn_bg"
+        />
+</LinearLayout>

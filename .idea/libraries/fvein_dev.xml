@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fvein_dev">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/fvein_dev.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

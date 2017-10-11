@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ProgressWheel -->
+    <declare-styleable name="ProgressWheel">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="barColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="spinSpeed" format="dimension" />
+        <attr name="delayMillis" format="integer" />
+        <attr name="circleColor" format="color" />
+        <attr name="radius2" format="dimension" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="barLength" format="dimension" />
+        <attr name="contourColor" format="color" />
+        <attr name="contourSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- circleimage -->
+    <declare-styleable name="circleImage">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <!-- textview attr -->
+    <declare-styleable name="customerTextView">
+        <attr name="text_type" format="enum">
+            <!-- 中划线 -->
+            <enum name="STRIKE_THRU_TEXT_FLAG" value="0" />
+            <!-- 清晰 -->
+            <enum name="ANTI_ALIAS_FLAG" value="1" />
+            <!-- 下划线 -->
+            <enum name="UNDERLINE_TEXT_FLAG " value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- ProgressPieView -->
+    <declare-styleable name="ProgressPieView">
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="startAngle" format="integer" />
+        <attr name="strokeWidth2" format="dimension" />
+        <attr name="backgroundColor" format="reference|color" />
+        <attr name="progressColor" format="reference|color" />
+        <attr name="strokeColor2" format="reference|color" />
+        <attr name="showStroke" format="boolean" />
+        <attr name="showText" format="boolean" />
+        <attr name="typeface" format="string" />
+        <attr name="image" format="reference" />
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="progressFillType" format="enum">
+            <enum name="radial" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- HoriVerctialViewPager -->
+    <declare-styleable name="ViewPager">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    
+    <declare-styleable name="ProgressWheel1">
+		<attr name="matProg_progressIndeterminate" format="boolean"/>
+		<attr name="matProg_barColor" format="color"/>
+		<attr name="matProg_rimColor" format="color"/>
+		<attr name="matProg_rimWidth" format="dimension"/>
+		<attr name="matProg_spinSpeed" format="float"/>
+		<attr name="matProg_barSpinCycleTime" format="integer"/>
+		<attr name="matProg_circleRadius" format="dimension"/>
+		<attr name="matProg_fillRadius" format="boolean"/>
+		<attr name="matProg_barWidth" format="dimension"/>
+		<attr name="matProg_linearProgress" format="boolean"/>
+	</declare-styleable>
+</resources>

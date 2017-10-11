@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEEEEEE" > 
+    
+    <FrameLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="225dp"
+	    android:layout_centerHorizontal="true">
+	    
+		<ImageView 
+		    android:id="@+id/ivfingershow"
+		    android:layout_width="640px"
+		    android:layout_height="410px"
+		    android:scaleType="fitXY"
+		    android:src="#FFEEEEEE" />
+		
+		<ImageView 
+		    android:id="@+id/ivscanline"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:scaleType="centerInside"
+		    android:visibility="gone"
+		    android:src="@drawable/jct_icon"/>
+	</FrameLayout>
+	
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/finger_bg"/>    
+    
+	<RelativeLayout
+	    android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sdktop_bg" >
+
+	    <Button 
+	        android:id="@+id/back"
+            android:layout_width="24dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_icon"/>
+        
+		<Button 
+            android:id="@+id/exits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"/>
+        
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="指静脉模板采集"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+        
+    </RelativeLayout>
+    
+	<Button 
+	    android:id="@+id/ivfinger_which"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/arrow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+	    android:background="@drawable/finger_icon"/>
+	<ImageView
+		    android:id="@+id/arrow"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+		    android:background="@drawable/arrow_icon"
+		    />
+    
+    
+    <TextView 
+        android:id="@+id/tvfingerstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/aeye_tv_hip_background"
+        android:gravity="center"
+        android:textColor="#dddddd"
+        android:textSize="16sp"
+        android:layout_above="@id/ivfinger_which"
+        android:text="请放手指 "/>
+	
+</RelativeLayout>
